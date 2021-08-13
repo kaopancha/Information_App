@@ -64,7 +64,7 @@
             this.label1.Location = new System.Drawing.Point(13, 17);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.label1.Size = new System.Drawing.Size(584, 37);
+            this.label1.Size = new System.Drawing.Size(587, 43);
             this.label1.TabIndex = 45;
             this.label1.Text = "แบบสำรวจสินทรัพย์ (อุปกรณ์) ด้านสารสนเทศโรงเรียนนายเรืออากาศนวมินทกษัตริยาธิราช";
             // 
@@ -75,7 +75,7 @@
             this.textBox1.Font = new System.Drawing.Font("TH SarabunPSK", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.textBox1.Location = new System.Drawing.Point(251, 71);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(258, 35);
+            this.textBox1.Size = new System.Drawing.Size(258, 39);
             this.textBox1.TabIndex = 49;
             // 
             // btnSearch
@@ -108,7 +108,7 @@
             "สถานที่ติดตั้ง"});
             this.comboBox1.Location = new System.Drawing.Point(96, 69);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(149, 35);
+            this.comboBox1.Size = new System.Drawing.Size(149, 41);
             this.comboBox1.TabIndex = 50;
             // 
             // panel4
@@ -128,10 +128,10 @@
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Left;
             this.label2.Font = new System.Drawing.Font("TH SarabunPSK", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label2.Location = new System.Drawing.Point(90, 0);
+            this.label2.Location = new System.Drawing.Point(93, 0);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.label2.Size = new System.Drawing.Size(62, 32);
+            this.label2.Size = new System.Drawing.Size(65, 38);
             this.label2.TabIndex = 22;
             this.label2.Text = "รายการ";
             // 
@@ -143,7 +143,7 @@
             this.count.Location = new System.Drawing.Point(69, 0);
             this.count.Name = "count";
             this.count.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.count.Size = new System.Drawing.Size(21, 32);
+            this.count.Size = new System.Drawing.Size(24, 38);
             this.count.TabIndex = 21;
             this.count.Text = "0";
             // 
@@ -247,7 +247,7 @@
             this.label3.Location = new System.Drawing.Point(12, 67);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.label3.Size = new System.Drawing.Size(75, 37);
+            this.label3.Size = new System.Drawing.Size(78, 43);
             this.label3.TabIndex = 58;
             this.label3.Text = "ค้นหาจาก";
             // 
@@ -273,7 +273,7 @@
             this.from_date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.from_date.Location = new System.Drawing.Point(592, 73);
             this.from_date.Name = "from_date";
-            this.from_date.Size = new System.Drawing.Size(108, 31);
+            this.from_date.Size = new System.Drawing.Size(108, 35);
             this.from_date.TabIndex = 151;
             this.from_date.Value = new System.DateTime(2020, 7, 31, 0, 0, 0, 0);
             this.from_date.ValueChanged += new System.EventHandler(this.from_date_ValueChanged);
@@ -286,7 +286,7 @@
             this.to_date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.to_date.Location = new System.Drawing.Point(740, 73);
             this.to_date.Name = "to_date";
-            this.to_date.Size = new System.Drawing.Size(108, 31);
+            this.to_date.Size = new System.Drawing.Size(108, 35);
             this.to_date.TabIndex = 152;
             this.to_date.Value = new System.DateTime(2020, 7, 1, 0, 0, 0, 0);
             // 
@@ -300,7 +300,7 @@
             this.label4.Location = new System.Drawing.Point(515, 67);
             this.label4.Name = "label4";
             this.label4.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.label4.Size = new System.Drawing.Size(74, 37);
+            this.label4.Size = new System.Drawing.Size(77, 43);
             this.label4.TabIndex = 153;
             this.label4.Text = "ตั้งแต่วันที่";
             // 
@@ -314,7 +314,7 @@
             this.label5.Location = new System.Drawing.Point(706, 67);
             this.label5.Name = "label5";
             this.label5.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.label5.Size = new System.Drawing.Size(28, 37);
+            this.label5.Size = new System.Drawing.Size(31, 43);
             this.label5.TabIndex = 154;
             this.label5.Text = "ถึง";
             // 

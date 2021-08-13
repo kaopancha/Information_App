@@ -108,6 +108,18 @@ namespace Information_App
                 return DBNull.Value;
             }
         }
+        // กำหนด Font เรียกใช้ Font จาก Path
+        /*public iTextSharp.text.Font GetSarabun(float fontSize, int fontStyle, BaseColor fontColor)
+        {
+            var fontName = "THSarabun";
+            if (!FontFactory.IsRegistered(fontName))
+            {
+                var fontPath = Environment.GetEnvironmentVariable("SystemRoot") + "\\fonts\\THSarabun.ttf";
+                FontFactory.Register(fontPath);
+            }
+            return FontFactory.GetFont(fontName, BaseFont.IDENTITY_H, BaseFont.EMBEDDED, fontSize, fontStyle, fontColor);
+        }*/
+
     }
 }
 

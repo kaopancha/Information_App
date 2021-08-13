@@ -97,7 +97,6 @@ namespace Information_App
                 MessageBox.Show(" " + ex);
             }
         }
-        
         private void print_Click(object sender, EventArgs e)
         {
             if (dataGridView1.Rows.Count > 0)
@@ -127,13 +126,13 @@ namespace Information_App
                         {
                             //กำหนดตัวแปรรองรับ font แต่ละขนาด
                             //ตั้งค่า font
-                            BaseFont bf = BaseFont.CreateFont(@"C:\WINDOWS\Fonts\tahoma.TTF", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED, true);
-                            BaseFont bf_bold = BaseFont.CreateFont(@"C:\WINDOWS\Fonts\tahoma.TTF", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED, true);
-                            Font ftitle = new Font(bf_bold, 16);
-                            Font ftitle_2 = new Font(bf, 16);
-                            Font fnt = new Font(bf_bold, 12);
-                            Font fdata = new Font(bf, 12);
-                            
+                            BaseFont bf = BaseFont.CreateFont(@"C:\WINDOWS\Fonts\THSarabun.TTF", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED, true);
+                            BaseFont bf_bold = BaseFont.CreateFont(@"C:\WINDOWS\Fonts\THSarabun Bold.TTF", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED, true);
+                            Font ftitle = new Font(bf_bold, 18);
+                            Font ftitle_2 = new Font(bf, 18);
+                            Font fnt = new Font(bf_bold, 16);
+                            Font fdata = new Font(bf, 16);
+
                             Phrase p;
 
                             PdfPTable pdfTable = new PdfPTable(15); //จำนวนคอลัมน์
